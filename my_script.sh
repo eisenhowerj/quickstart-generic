@@ -1,7 +1,11 @@
 #!/bin/bash
 
 echo "cloning"
-#git clone --mirror git@github.com:eisenhowerj/scratch.git
+
+git clone https://github.com/eisenhowerj/scratch.git newscratch
+
 ls
-pwd
-df
+
+ls newscratch/
+
+cd scratch; git pull
